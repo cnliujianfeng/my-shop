@@ -99,4 +99,14 @@
             </if>
         </where>
     </select>
+
+    <!--删除-->
+    <delete id="deleteMulti">
+        DELETE FROM tb_user
+        WHERE id IN
+        <foreach collection="array" open="(" close=")" separator="," item="id">
+            #{id}
+        </foreach>
+
+    </delete>
 </mapper>

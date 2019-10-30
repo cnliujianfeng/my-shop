@@ -31,14 +31,13 @@ public class PermissionInterceptor implements HandlerInterceptor {
 
     @Override
     public void postHandle(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, Object o, ModelAndView modelAndView) throws Exception {
-        if(modelAndView.getViewName().endsWith("login")){
+        if (modelAndView != null && modelAndView.getViewName().endsWith("login")) {
             TbUser tbUser = (TbUser) httpServletRequest.getSession().getAttribute(ConstanUtils.SESSION_USER);
 
-            if(tbUser!=null){
+            if (tbUser != null) {
                 //未登录
                 httpServletResponse.sendRedirect("/main");
             }
-
 
 
         }

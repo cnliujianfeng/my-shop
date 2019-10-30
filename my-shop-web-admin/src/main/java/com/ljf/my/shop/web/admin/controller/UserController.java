@@ -4,6 +4,7 @@ package com.ljf.my.shop.web.admin.controller;
 import com.ljf.my.shop.commons.dto.BaseResult;
 import com.ljf.my.shop.domain.TbUser;
 import com.ljf.my.shop.web.admin.service.TbUserService;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -114,7 +115,17 @@ public class UserController {
      */
     @ResponseBody
     @RequestMapping(value = "delete", method = RequestMethod.POST)
-    public String delete(String ids) {
-        return "hello Ajax";
+    public BaseResult delete(String ids) {
+        BaseResult baseResult = null;
+        if (StringUtils.isNotBlank(ids)) {
+            String[] idArray = ids.split(",");
+            tbUserService.deleteMulti(idArray);
+            baseResult = BaseResult.success("删除数据成功");
+        } else {
+            baseResult = BaseResult.fail("删除失败");
+        }
+
+
+        return baseResult;
     }
 }

@@ -93,9 +93,9 @@
                                 <div class="col-xs-12">
                                     <a href="/user/form" type="button" class="btn  btn-default btn-sm"><i
                                             class="fa fa-plus"></i> 新增</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <a href="#" type="button" class="btn  btn-default btn-sm" onclick="deleteMutil()"><i
+                                    <button href="#" type="button" class="btn  btn-default btn-sm" onclick="App.deleteMulti('/user/delete')"><i
                                             class="fa fa-trash-o"></i>
-                                        删除</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        删除</button>&nbsp;&nbsp;&nbsp;&nbsp;
                                     <a href="#" type="button" class="btn  btn-default btn-sm"><i
                                             class="fa fa-download"></i>
                                         导入</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -162,33 +162,11 @@
 
 </div>
 <jsp:include page="../includes/footer.jsp"/>
-
-<sys:modal message="第一个模态框" opts="confirm" url="/user/delete"/>
-
-
-<script>
+<%--自定义模态框--%>
+<sys:modal/>
 
 
 
-    function deleteMutil() {
-
-        //定义一个存放id的数组
-        var idArray = new Array();
-        //将选择元素的id放入数组中
-        var _checkbox = App.getChechbox();
-        _checkbox.each(function () {
-            var _id = $(this).attr('id');
-
-            if (_id != null && _id != 'undefine' && $(this).is(':checked')) {
-                idArray.push(_id);
-            }
-        });
-
-        if(idArray.length===0){
-            $('#modal-default').modal('show');
-        }
-    }
-</script>
 
 </body>
 </html>

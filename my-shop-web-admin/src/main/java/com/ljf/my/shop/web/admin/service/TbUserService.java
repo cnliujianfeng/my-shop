@@ -26,10 +26,28 @@ public interface TbUserService {
 
     void update(TbUser tbUser);
 
+
     List<TbUser> selectByUserName(String username);
 
+    /**
+     * 用户登录
+     * @param email
+     * @param password
+     * @return
+     */
     TbUser login(String email, String password);
 
+    /**
+     * 搜索
+     * @param tbUser
+     * @return
+     */
     List<TbUser> search(TbUser tbUser);
+
+    /**
+     * 批量删除
+     * @param ids
+     */
+    void deleteMulti(String[] ids);
 
 }

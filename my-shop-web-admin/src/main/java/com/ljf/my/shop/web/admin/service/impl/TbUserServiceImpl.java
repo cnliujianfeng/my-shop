@@ -132,4 +132,13 @@ public class TbUserServiceImpl implements TbUserService {
         return tbUserDao.search(tbUser);
     }
 
+    /**
+     * 批量删除
+     * @param ids
+     */
+    @Override
+    public void deleteMulti(String[] ids) {
+        tbUserDao.deleteMulti(ids);
+    }
+
 }
