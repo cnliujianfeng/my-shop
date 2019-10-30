@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljf.my.shop.web.admin.dao.TbUserDao">
+    <sql id="tbUserColumns">
+        a.id,
+        a.username,
+        a.password,
+        a.phone,
+        a.email,
+        a.created,
+        a.updated
+    </sql>
+    <select id="selectAll" resultType="TbUser">
+        SELECT
+        <include refid="tbUserColumns"/>
+        FROM
+        tb_user AS a
+    </select>
+    <insert id="insert">
+        INSERT INTO `myshop`.`tb_user` (
+            `username`,
+            `password`,
+            `phone`,
+            `email`,
+            `created`,
+            `updated`
+        )
+    VALUES
+        (
+            #{username},
+            #{password},
+            #{phone},
+            #{email} ,
+            #{created} ,
+            #{updated}
+
+        )
+
+    </insert>
+    <delete id="delete">
+        delete from tb_user where id =#{id}
+    </delete>
+
+    <select id="getById" resultType="TbUser">
+        SELECT
+        <include refid="tbUserColumns"/>
+        FROM
+        tb_user AS a
+        where
+        a.id=#{id}
+    </select>
+
+    <update id="update">
+        UPDATE
+        tb_user
+        SET
+         username = #{username},
+         password =#{password},
+         phone = #{phone},
+         email =#{email},
+         updated = #{updated}
+        WHERE
+           id=#{id}
+    </update>
+
+    <select id="selectByUserName" resultType="TbUser">
+        SELECT
+        <include refid="tbUserColumns"/>
+        FROM
+        tb_user AS a
+        where
+        a.username like CONCAT("%",#{username},"%")
+    </select>
+
+    <select id="getByEmail" resultType="TbUser">
+        select
+        <include refid="tbUserColumns"/>
+        FROM
+        tb_user AS a
+        where
+        email=#{email}
+    </select>
+
+    <!--搜索-->
+    <select id="search" resultType="TbUser">
+        SELECT
+        <include refid="tbUserColumns"/>
+        FROM
+        tb_user AS a
+        <where>
+            <if test="username!=null and username !=''">
+                AND a.username LIKE CONCAT('%',#{username},'%')
+            </if>
+            <if test="phone!=null and phone !=''">
+                AND a.phone LIKE CONCAT('%',#{phone},'%')
+            </if>
+            <if test="email!=null and email !=''">
+                AND a.email LIKE CONCAT('%',#{email},'%')
+            </if>
+        </where>
+    </select>
+</mapper>
