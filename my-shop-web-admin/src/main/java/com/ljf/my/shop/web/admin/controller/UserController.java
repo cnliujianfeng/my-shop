@@ -7,9 +7,7 @@ import com.ljf.my.shop.web.admin.service.TbUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.util.List;
@@ -37,8 +35,8 @@ public class UserController {
         //id不为空则从数据库获取
         if (id != null) {
             tbUser = tbUserService.getById(id);
-        }else {
-            tbUser=new TbUser();
+        } else {
+            tbUser = new TbUser();
         }
 
         return tbUser;
@@ -59,6 +57,7 @@ public class UserController {
 
     /**
      * 跳转用户表单页
+     *
      * @return
      */
     @RequestMapping(value = "form", method = RequestMethod.GET)
@@ -69,6 +68,7 @@ public class UserController {
 
     /**
      * 保存用户信息
+     *
      * @param tbUser
      * @param redirectAttributes
      * @param model
@@ -93,15 +93,28 @@ public class UserController {
 
     /**
      * 搜索
+     *
      * @param tbUser
      * @param model
      * @return
      */
-    @RequestMapping(value = "search",method = RequestMethod.POST)
-    public String search(TbUser tbUser,Model model){
+    @RequestMapping(value = "search", method = RequestMethod.POST)
+    public String search(TbUser tbUser, Model model) {
 
         List<TbUser> tbUsers = tbUserService.search(tbUser);
-        model.addAttribute("tbUsers",tbUsers);
+        model.addAttribute("tbUsers", tbUsers);
         return "user_list";
+    }
+
+    /**
+     * 删除用户信息
+     *
+     * @param ids
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping(value = "delete", method = RequestMethod.POST)
+    public String delete(String ids) {
+        return "hello Ajax";
     }
 }

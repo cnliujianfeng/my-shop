@@ -6,9 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7d5653e-2c05-41e4-a44b-94b71696b1b3" name="Default Changelist" comment="">
+    <list default="true" id="d7d5653e-2c05-41e4-a44b-94b71696b1b3" name="Default Changelist" comment="ti">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/my_shop_web_admin_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/my_shop_web_admin_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/classes/META-INF/my-shop-web-admin.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-dependencies/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/my-shop-web-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/my-shop-web-admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/classes/com/ljf/my/shop/web/admin/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/classes/com/ljf/my/shop/web/admin/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/ljf/my/shop/web/admin/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/classes/com/ljf/my/shop/web/admin/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-shop-commons-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-shop-commons-1.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-shop-domain-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-shop-domain-1.0.0-SNAPSHOT.jar" afterDir="false" />
     </list>
@@ -31,37 +40,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2805">
-              <caret line="165" column="41" selection-start-line="165" selection-start-column="34" selection-end-line="165" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/tags/sys/modal.tag">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/head.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/toHide.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="464">
+              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -96,11 +78,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="95" column="20" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
+            <state relative-caret-position="668">
+              <caret line="114" column="17" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2777#2778#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-shop-commons/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-shop-dependencies/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="150" column="43" selection-start-line="150" selection-start-column="43" selection-end-line="150" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-shop-web-admin/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="549">
+              <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -175,7 +181,6 @@
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/package.json" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/spring-mybatis.xml" />
-        <option value="$PROJECT_DIR$/my-shop-dependencies/pom.xml" />
         <option value="$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbUser.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/dao/impl/TbUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/dao/impl/UserDaoImpl.java" />
@@ -183,7 +188,6 @@
         <option value="$PROJECT_DIR$/my-shop-commons/src/main/src/java/com/ljf/my/shop/commons/constant/ConstanUtils.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/interecptor/LoginInterceptor.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/interecptor/PermissionInterceptor.java" />
-        <option value="$PROJECT_DIR$/my-shop-web-admin/pom.xml" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/myshop.properties" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/copyright.jsp" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/nav.jsp" />
@@ -202,7 +206,6 @@
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/dao/TbUserDao.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/TbUserService.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/impl/TbUserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/UserController.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbUserMapper.xml" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/js/app.js" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/toHide.html" />
@@ -211,6 +214,9 @@
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/footer.jsp" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/tags/sys/modal.tag" />
+        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/my-shop-web-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/my-shop-dependencies/pom.xml" />
       </list>
     </option>
   </component>
@@ -256,14 +262,7 @@
   <component name="MavenRunner">
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="252" />
     <option name="y" value="83" />
     <option name="width" value="1623" />
@@ -293,93 +292,7 @@
             <path>
               <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-commons" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-              <item name="constant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
               <item name="my-shop-dependencies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-domain" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
@@ -432,81 +345,6 @@
               <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="interecptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -525,6 +363,39 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -535,7 +406,18 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
+              <item name="tags" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="tags" type="462c0819:PsiDirectoryNode" />
+              <item name="sys" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
@@ -568,9 +450,8 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MyJava\my-shop\my-shop-web-admin\src\main\webapp\WEB-INF\tags\sys" />
-      <recent name="D:\MyJava\my-shop\my-shop-web-admin\src\main\webapp\WEB-INF\views" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ljf.my.shop.web.admin.dao.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\MyJava\my-shop\my-shop-web-admin\src\main\webapp\static\assets\plugins" />
@@ -583,8 +464,9 @@
       <recent name="com.ljf.my.shop.commons.utils" />
       <recent name="com.ljf.my.shop.web.admin.service.impl" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.ljf.my.shop.web.admin.dao.impl" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyJava\my-shop\my-shop-web-admin\src\main\webapp\WEB-INF\tags\sys" />
+      <recent name="D:\MyJava\my-shop\my-shop-web-admin\src\main\webapp\WEB-INF\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -793,7 +675,7 @@
       <workItem from="1572275956836" duration="877000" />
       <workItem from="1572281246026" duration="4330000" />
       <workItem from="1572316867561" duration="7916000" />
-      <workItem from="1572403575678" duration="4577000" />
+      <workItem from="1572403575678" duration="6012000" />
     </task>
     <task id="LOCAL-00001" summary="ti">
       <created>1572405015784</created>
@@ -802,7 +684,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572405015784</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ti">
+      <created>1572415401667</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572415401667</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -838,13 +727,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105912000" />
+    <option name="totallyTimeSpent" value="107347000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="252" y="83" width="1623" height="926" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969697" visible="true" weight="0.30710173" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969697" visible="true" weight="0.25586355" />
       <window_info id="Structure" order="1" sideWeight="0.50092083" side_tool="true" weight="0.2225" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -856,13 +745,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32786885" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49909145" visible="true" weight="0.30050504" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49909145" weight="0.25813448" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.499375" weight="0.32786885" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32912987" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32660782" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3264642" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32912987" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50090855" side_tool="true" weight="0.39925835" />
@@ -872,7 +761,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.24683122" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.2468017" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -924,8 +813,11 @@
     <MESSAGE value="ti" />
     <option name="LAST_COMMIT_MESSAGE" value="ti" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/HandlerExecutionChain.class" />
     <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/package.json" />
     <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/resources/spring-context-druid.xml">
@@ -966,20 +858,6 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/com/sun/jmx/interceptor/DefaultMBeanServerInterceptor.java" />
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-dependencies/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/nav.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1245,16 +1123,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="95" column="20" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/TbUserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1274,8 +1142,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/tags/sys/modal.tag">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        <state relative-caret-position="464">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="668">
+          <caret line="114" column="17" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2777#2778#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-dependencies/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="150" column="43" selection-start-line="150" selection-start-column="43" selection-end-line="150" selection-end-column="43" />
         </state>
       </provider>
     </entry>
