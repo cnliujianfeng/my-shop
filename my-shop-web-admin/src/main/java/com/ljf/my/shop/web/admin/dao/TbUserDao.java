@@ -1,5 +1,6 @@
 package com.ljf.my.shop.web.admin.dao;
 
+import com.ljf.my.shop.commons.dto.Pageinfo;
 import com.ljf.my.shop.domain.TbUser;
 
 import org.springframework.stereotype.Repository;

@@ -1,6 +1,7 @@
 package com.ljf.my.shop.web.admin.service;
 
 import com.ljf.my.shop.commons.dto.BaseResult;
+import com.ljf.my.shop.commons.dto.Pageinfo;
 import com.ljf.my.shop.domain.TbUser;
 
 
@@ -56,7 +57,7 @@ public interface TbUserService {
      * @param length
      * @return
      */
-    List<TbUser> page(int start,int length);
+    Pageinfo<TbUser> page(int start, int length,int draw);
 
     /**
      * 查询总笔数

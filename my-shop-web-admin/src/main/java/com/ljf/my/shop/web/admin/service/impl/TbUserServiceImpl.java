@@ -1,6 +1,7 @@
 package com.ljf.my.shop.web.admin.service.impl;
 
 import com.ljf.my.shop.commons.dto.BaseResult;
+import com.ljf.my.shop.commons.dto.Pageinfo;
 import com.ljf.my.shop.commons.utils.RegexpUtils;
 import com.ljf.my.shop.domain.TbUser;
 import com.ljf.my.shop.domain.User;
@@ -51,6 +52,7 @@ public class TbUserServiceImpl implements TbUserService {
 
                 //编辑用户
             } else {
+                System.out.println("进入保存了");
                 tbUserDao.update(tbUser);
             }
             baseResult.setMessage("保存用户信息成功");
@@ -94,8 +96,6 @@ public class TbUserServiceImpl implements TbUserService {
     }
 
 
-
-
     /**
      * 用户信息的有效验证
      *
@@ -115,16 +115,13 @@ public class TbUserServiceImpl implements TbUserService {
             baseResult = BaseResult.fail("姓名不能为空请重新输入");
         } else if (StringUtils.isBlank(tbUser.getPhone())) {
             baseResult = BaseResult.fail("手机不能为空请重新输入");
-        }
-        else if (!RegexpUtils.checkPhone(tbUser.getPhone())) {
+        } else if (!RegexpUtils.checkPhone(tbUser.getPhone())) {
             baseResult = BaseResult.fail("手机格式不正确请重新输入");
         }
 
 
-
         return baseResult;
     }
-
 
 
     @Override
@@ -136,6 +133,7 @@ public class TbUserServiceImpl implements TbUserService {
 
     /**
      * 批量删除
+     *
      * @param ids
      */
     @Override
@@ -145,20 +143,32 @@ public class TbUserServiceImpl implements TbUserService {
 
     /**
      * 分页查询
+     *
      * @param start
      * @param length
      * @return
      */
     @Override
-    public List<TbUser> page(int start, int length) {
-        Map<String,Object> params=new HashMap<>();
-        params.put("start",start);
-        params.put("length",length);
-        return tbUserDao.page(params);
+    public Pageinfo<TbUser> page(int start, int length, int draw) {
+        int count = tbUserDao.count();
+
+        Map<String, Object> params = new HashMap<>();
+        params.put("start", start);
+        params.put("length", length);
+
+        Pageinfo<TbUser> pageinfo = new Pageinfo<>();
+        pageinfo.setDraw(draw);
+        pageinfo.setRecordsTotal(count);
+        pageinfo.setRecordsFiltered(count);
+        pageinfo.setData(tbUserDao.page(params));
+
+
+        return pageinfo;
     }
 
     /**
      * 查询总笔数
+     *
      * @return
      */
     @Override

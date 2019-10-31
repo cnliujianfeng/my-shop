@@ -2,6 +2,7 @@ package com.ljf.my.shop.web.admin.controller;
 
 
 import com.ljf.my.shop.commons.dto.BaseResult;
+import com.ljf.my.shop.commons.dto.Pageinfo;
 import com.ljf.my.shop.domain.TbUser;
 import com.ljf.my.shop.web.admin.service.TbUserService;
 import org.apache.commons.lang3.StringUtils;
@@ -50,13 +51,12 @@ public class UserController {
     /**
      * 跳转到用户列表页面
      *
-     * @param model
+     *
      * @return
      */
     @RequestMapping(value = "list", method = RequestMethod.GET)
-    public String list(Model model) {
-        List<TbUser> tbUsers = tbUserService.selectAll();
-        model.addAttribute("tbUsers", tbUsers);
+    public String list() {
+
         return "user_list";
     }
 
@@ -81,7 +81,9 @@ public class UserController {
      */
     @RequestMapping(value = "save", method = RequestMethod.POST)
     public String sava(TbUser tbUser, RedirectAttributes redirectAttributes, Model model) {
+
         BaseResult baseResult = tbUserService.save(tbUser);
+
         //保存成功
         if (baseResult.getStatus() == 200) {
             redirectAttributes.addFlashAttribute("baseResult", baseResult);
@@ -135,8 +137,8 @@ public class UserController {
 
     @ResponseBody
     @RequestMapping(value = "page", method = RequestMethod.GET)
-    public Map<String, Object> page(HttpServletRequest request) {
-        Map<String, Object> result = new HashMap<>();
+    public Pageinfo<TbUser> page(HttpServletRequest request) {
+
 
         String strDraw = request.getParameter("draw");
         String strStart = request.getParameter("start");
@@ -147,15 +149,20 @@ public class UserController {
         int start = strStart == null ? 0 : Integer.parseInt(strStart);
         int length = strLength == null ? 10 : Integer.parseInt(strLength);
 
-        //封装DataTables需要的结果
-        List<TbUser> tbUsers = tbUserService.page(start, length);
-        int count=tbUserService.count();
-        result.put("draw",draw);
-        result.put("recordsTotal",count);
-        result.put("recordsFiltered",count);
-        result.put("data",tbUsers);
-        result.put("error","");
+        Pageinfo<TbUser> pageinfo = tbUserService.page(start, length, draw);
 
-        return result;
+        return pageinfo;
+    }
+
+    /**
+     * 显示用户详情
+     * @param tbUser
+     * @return
+     */
+    @RequestMapping(value = "detail",method = RequestMethod.GET)
+    public String detail(TbUser tbUser){
+        System.out.println(tbUser.getUsername());
+
+        return "user_detail";
     }
 }
