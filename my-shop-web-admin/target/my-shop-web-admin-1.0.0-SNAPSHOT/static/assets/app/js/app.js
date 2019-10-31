@@ -32,11 +32,25 @@ var App = function () {
         _masterCheckbox.on("ifClicked", function (e) {
             //返回true表示未选择
             if (e.target.checked) {
-                _checkbox.iCheck("uncheck")
+                _checkbox.iCheck("uncheck");
             } else {
-                _checkbox.iCheck("check")
+                _checkbox.iCheck("check");
             }
         });
+    };
+
+    /**
+     * 分页后页面刷新对于全选框被勾的情况 进行的功能补足
+     */
+    var handlerCheckBoxInit = function () {
+
+        if (_masterCheckbox.attr('checked')) {
+            _checkbox.iCheck("check");
+        } else {
+
+            _checkbox.iCheck("uncheck");
+        }
+
     };
 
     /**
@@ -96,7 +110,6 @@ var App = function () {
                                 $("#modal-default").modal("show");
 
 
-
                                 //删除失败
                             } else {
                                 $("#btnModalOk").unbind("click");
@@ -123,6 +136,7 @@ var App = function () {
         init: function () {
             handlerInitCheckbox();
             handlerCheckboxAll();
+            handlerCheckBoxInit();
         },
 
         getChechbox: function () {
