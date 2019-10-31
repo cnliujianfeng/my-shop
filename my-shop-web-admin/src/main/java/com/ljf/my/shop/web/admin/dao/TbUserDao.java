@@ -5,6 +5,7 @@ import com.ljf.my.shop.domain.TbUser;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * ClassNmae:TbUserDao
@@ -73,4 +74,16 @@ public interface TbUserDao {
      */
     void deleteMulti(String[] ids);
 
+    /**
+     * 分页查询
+     * @param params 需要两个参数一个是start 记录数据开始位置 一个是length 每页记录数
+     * @return
+     */
+    List<TbUser> page(Map<String,Object> params);
+
+    /**
+     * 查询总笔数
+     * @return
+     */
+    int count();
 }

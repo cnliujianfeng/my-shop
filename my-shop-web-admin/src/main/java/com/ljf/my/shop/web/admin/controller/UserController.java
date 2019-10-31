@@ -11,7 +11,11 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import javax.servlet.http.HttpServletRequest;
+import java.util.Enumeration;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * ClassNmae:用户管理
@@ -127,5 +131,31 @@ public class UserController {
 
 
         return baseResult;
+    }
+
+    @ResponseBody
+    @RequestMapping(value = "page", method = RequestMethod.GET)
+    public Map<String, Object> page(HttpServletRequest request) {
+        Map<String, Object> result = new HashMap<>();
+
+        String strDraw = request.getParameter("draw");
+        String strStart = request.getParameter("start");
+        String strLength = request.getParameter("length");
+
+
+        int draw = strDraw == null ? 0 : Integer.parseInt(strDraw);
+        int start = strStart == null ? 0 : Integer.parseInt(strStart);
+        int length = strLength == null ? 10 : Integer.parseInt(strLength);
+
+        //封装DataTables需要的结果
+        List<TbUser> tbUsers = tbUserService.page(start, length);
+        int count=tbUserService.count();
+        result.put("draw",draw);
+        result.put("recordsTotal",count);
+        result.put("recordsFiltered",count);
+        result.put("data",tbUsers);
+        result.put("error","");
+
+        return result;
     }
 }
