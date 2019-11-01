@@ -1,6 +1,6 @@
 package com.ljf.my.shop.web.admin.dao;
 
-import com.ljf.my.shop.commons.dto.Pageinfo;
+
 import com.ljf.my.shop.domain.TbUser;
 
 import org.springframework.stereotype.Repository;
@@ -50,24 +50,11 @@ public interface TbUserDao {
      */
    void update(TbUser tbUser);
 
-    /**
-     * 根据用户名进行模糊查询
-     * @param username
-     * @return
-     */
-   List<TbUser> selectByUserName(String username);
 
     /**
      * 根据邮箱查询用户信息
      */
     TbUser getByEmail(String email);
-
-    /**
-     * 搜索
-     * @param tbUser
-     * @return
-     */
-     List<TbUser> search(TbUser tbUser);
 
     /**
      * 批量删除
@@ -86,5 +73,5 @@ public interface TbUserDao {
      * 查询总笔数
      * @return
      */
-    int count();
+    int count(TbUser tbUser);
 }

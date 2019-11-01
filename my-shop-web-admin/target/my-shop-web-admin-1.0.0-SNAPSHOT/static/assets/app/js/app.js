@@ -70,16 +70,17 @@ var App = function () {
                 _idArray.push(_id);
             }
         });
-
+        //判断用户是否选择数据线
         if (_idArray.length === 0) {
 
             $('#modal-message').html("您还没有选择任何数据，请至少选择一项");
         } else {
             $('#modal-message').html("您确定删除数据吗");
         }
+        //点击删除时弹出模态框
         $('#modal-default').modal('show');
 
-
+        //如果选择了数据线则调用删除方法
         $("#btnModalOk").bind("click", function () {
             del();
         });
@@ -100,28 +101,29 @@ var App = function () {
                         "data": {"ids": _idArray.toString()},
                         "dataType": "JSON",
                         "success": function (data) {
+                            //请求成功后，无论成功还是失败都需要弹出模态框进行提示 所以需要先解绑原来的click事件
+                            $("#btnModalOk").unbind("click");
+                            //请求成功
                             if (data.status === 200) {
-                                $("#btnModalOk").unbind("click");
+                                //刷新页面
                                 $("#btnModalOk").bind("click", function () {
                                     window.location.reload();
                                 });
 
-                                $('#modal-message').html("删除成功");
-                                $("#modal-default").modal("show");
-
 
                                 //删除失败
                             } else {
+                                //确定按钮事件改为隐藏模态框
                                 $("#btnModalOk").unbind("click");
                                 $("#btnModalOk").bind("click", function () {
                                     $("#modal-default").modal("hide");
                                 });
 
-                                $('#modal-message').html(data.message);
-                                $("#modal-default").modal("show");
-
 
                             }
+                            //无论成败 模态框都要显示消息
+                            $('#modal-message').html(data.message);
+                            $("#modal-default").modal("show");
                         }
                     });
                 }, 500)
@@ -134,8 +136,8 @@ var App = function () {
     /**
      * 初始化Datatables
      */
-    var handlerInitDataTables = function (url,columns) {
-        $('#dataTable').DataTable({
+    var handlerInitDataTables = function (url, columns) {
+        var _dataTable = $('#dataTable').DataTable({
             "paging": true,
             "info": true,
             "lengthChange": false,
@@ -145,7 +147,8 @@ var App = function () {
             "serverSide": true,
             "deferRender": true,
             "ajax": {
-                "url": url
+                "url": url,
+
             },
             "columns": columns,
             "language": {
@@ -178,18 +181,21 @@ var App = function () {
                 handlerCheckBoxInit();
             }
         });
+
+        return _dataTable;
     };
 
     /**
      * 查看详情
      * @param url
      */
-    var handlerShowDetail=function (url) {
+    var handlerShowDetail = function (url) {
+        //通过ajax请求html的方式将jsp装入模态框
         $.ajax({
-            url:url,
-            type:"get",
-            dateType:"html",
-            success:function (data) {
+            url: url,
+            type: "get",
+            dateType: "html",
+            success: function (data) {
                 $('#modal-detail-body').html(data);
                 $('#modal-detail').modal("show");
             }
@@ -204,20 +210,27 @@ var App = function () {
             handlerCheckboxAll();
             handlerCheckBoxInit();
         },
-
-        getChechbox: function () {
-            return _checkbox;
-        },
-
+        /**
+         * 批量删除
+         * @param url
+         */
         deleteMulti: function (url) {
             handlerDeleteMulti(url);
         },
-
-        initDataTables:function (url,columns) {
-            handlerInitDataTables(url,columns);
+        /**
+         * 初始化dataTables
+         * @param url
+         * @param columns
+         * @returns {jQuery}
+         */
+        initDataTables: function (url, columns) {
+            return handlerInitDataTables(url, columns);
         },
-
-        showDetail:function (url) {
+        /**
+         * 显示详情
+         * @param url
+         */
+        showDetail: function (url) {
             handlerShowDetail(url);
         }
 

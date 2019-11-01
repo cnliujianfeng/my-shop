@@ -16,19 +16,40 @@ import java.util.List;
  * @Author:
  */
 public interface TbUserService {
-
+    /**
+     * 查询全部
+     * @return
+     */
     List<TbUser> selectAll();
 
+    /**
+     * 保存用户信息
+     * @param tbUser
+     * @return
+     */
     BaseResult save(TbUser tbUser);
 
+    /**
+     * 删除用户信息
+     * @param id
+     */
     void delete(Long id);
 
+    /**
+     * 根据id获取用户信息
+     * @param id
+     * @return
+     */
     TbUser getById(Long id);
 
+    /**
+     * 更新用户信息
+     * @param tbUser
+     */
     void update(TbUser tbUser);
 
 
-    List<TbUser> selectByUserName(String username);
+
 
     /**
      * 用户登录
@@ -38,12 +59,6 @@ public interface TbUserService {
      */
     TbUser login(String email, String password);
 
-    /**
-     * 搜索
-     * @param tbUser
-     * @return
-     */
-    List<TbUser> search(TbUser tbUser);
 
     /**
      * 批量删除
@@ -57,11 +72,11 @@ public interface TbUserService {
      * @param length
      * @return
      */
-    Pageinfo<TbUser> page(int start, int length,int draw);
+    Pageinfo<TbUser> page(int start, int length,int draw,TbUser tbUser);
 
     /**
      * 查询总笔数
      * @return
      */
-    int count();
+    int count(TbUser tbUser);
 }

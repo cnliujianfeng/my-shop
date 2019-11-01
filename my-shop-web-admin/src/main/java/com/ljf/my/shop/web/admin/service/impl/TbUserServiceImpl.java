@@ -36,6 +36,11 @@ public class TbUserServiceImpl implements TbUserService {
         return tbUserDao.selectAll();
     }
 
+    /**
+     * 保存用户信息
+     * @param tbUser
+     * @return
+     */
     @Override
     public BaseResult save(TbUser tbUser) {
         BaseResult baseResult = checkTbUser(tbUser);
@@ -61,26 +66,40 @@ public class TbUserServiceImpl implements TbUserService {
 
     }
 
+    /**
+     * 删除用户信息
+     * @param id
+     */
     @Override
     public void delete(Long id) {
         tbUserDao.delete(id);
     }
 
+    /**
+     * 根据id查询用户信息
+     * @param id
+     * @return
+     */
     @Override
     public TbUser getById(Long id) {
         return tbUserDao.getById(id);
     }
 
+    /**
+     * 更新用户信息
+     * @param tbUser
+     */
     @Override
     public void update(TbUser tbUser) {
         tbUserDao.update(tbUser);
     }
 
-    @Override
-    public List<TbUser> selectByUserName(String username) {
-        return tbUserDao.selectByUserName(username);
-    }
-
+    /**
+     * 用户登录
+     * @param email
+     * @param password
+     * @return
+     */
     @Override
     public TbUser login(String email, String password) {
         TbUser tbUser = tbUserDao.getByEmail(email);
@@ -124,12 +143,6 @@ public class TbUserServiceImpl implements TbUserService {
     }
 
 
-    @Override
-    public List<TbUser> search(TbUser tbUser) {
-
-
-        return tbUserDao.search(tbUser);
-    }
 
     /**
      * 批量删除
@@ -149,12 +162,13 @@ public class TbUserServiceImpl implements TbUserService {
      * @return
      */
     @Override
-    public Pageinfo<TbUser> page(int start, int length, int draw) {
-        int count = tbUserDao.count();
+    public Pageinfo<TbUser> page(int start, int length, int draw,TbUser tbUser) {
+        int count = tbUserDao.count(tbUser);
 
         Map<String, Object> params = new HashMap<>();
         params.put("start", start);
         params.put("length", length);
+        params.put("tbUser",tbUser);
 
         Pageinfo<TbUser> pageinfo = new Pageinfo<>();
         pageinfo.setDraw(draw);
@@ -172,8 +186,8 @@ public class TbUserServiceImpl implements TbUserService {
      * @return
      */
     @Override
-    public int count() {
-        return tbUserDao.count();
+    public int count(TbUser tbUser) {
+        return tbUserDao.count(tbUser);
     }
 
 }

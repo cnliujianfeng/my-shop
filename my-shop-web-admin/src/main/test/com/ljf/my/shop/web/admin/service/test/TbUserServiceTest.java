@@ -60,13 +60,7 @@ public class TbUserServiceTest {
     }
 
 
-    @Test
-    public void selectUserName() {
-        List<TbUser> tbUsers = tbUserService.selectByUserName("uni");
-        for (TbUser tbUser : tbUsers) {
-            System.out.println(tbUser.getUsername());
-        }
-    }
+
 
     @Test
     public void toMD5(){

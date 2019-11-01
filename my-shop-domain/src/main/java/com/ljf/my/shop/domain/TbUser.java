@@ -1,5 +1,6 @@
 package com.ljf.my.shop.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.ljf.my.shop.commons.persistence.BaseEntity;
 
 import java.io.Serializable;
@@ -28,7 +29,7 @@ public class TbUser extends BaseEntity {
     public void setUsername(String username) {
         this.username = username;
     }
-
+    @JsonIgnore
     public String getPassword() {
         return password;
     }

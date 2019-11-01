@@ -43,47 +43,45 @@
                         </div>
                         <!-- /.box-header -->
                         <!-- form start -->
-                        <form:form action="/user/search" cssClass="form-horizontal" method="post"
-                                   modelAttribute="tbUser">
 
-                            <div class="box-body">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-3">
-                                        <div class="form-group">
-                                            <label for="username" class="col-sm-4 control-label">姓名</label>
-                                            <div class="col-sm-8">
-                                                <form:input path="username" cssClass="form-control"
-                                                            placeholder="姓名"/>
-                                            </div>
+                        <div class="box-body">
+                            <div class="row form-horizontal">
+                                <div class="col-xs-12 col-sm-3">
+                                    <div class="form-group">
+                                        <label for="username" class="col-sm-4 control-label">姓名</label>
+                                        <div class="col-sm-8">
+                                            <input id="username" Class="form-control"
+                                                   placeholder="姓名"/>
                                         </div>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-3">
-                                        <div class="form-group">
-                                            <label for="email" class="col-sm-4 control-label">邮箱</label>
-                                            <div class="col-sm-8">
-                                                <form:input path="email" cssClass="form-control" placeholder="邮箱"/>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                    <div class="col-xs-12 col-sm-3">
-                                        <div class="form-group">
-                                            <label for="phone" class="col-sm-4 control-label">手机</label>
-                                            <div class="col-sm-8">
-                                                <form:input path="phone" cssClass="form-control" placeholder="手机"/>
-                                            </div>
-                                        </div>
-
                                     </div>
                                 </div>
-                            </div>
-                            <!-- /.box-body -->
-                            <div class="box-footer">
+                                <div class="col-xs-12 col-sm-3">
+                                    <div class="form-group">
+                                        <label for="email" class="col-sm-4 control-label">邮箱</label>
+                                        <div class="col-sm-8">
+                                            <input id="email" Class="form-control" placeholder="邮箱"/>
+                                        </div>
+                                    </div>
 
-                                <button type="submit" class="btn btn-info pull-right">搜索</button>
+                                </div>
+                                <div class="col-xs-12 col-sm-3">
+                                    <div class="form-group">
+                                        <label for="phone" class="col-sm-4 control-label">手机</label>
+                                        <div class="col-sm-8">
+                                            <input id="phone" Class="form-control" placeholder="手机"/>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </div>
-                            <!-- /.box-footer -->
-                        </form:form>
+                        </div>
+                        <!-- /.box-body -->
+                        <div class="box-footer">
+
+                            <button type="button" class="btn btn-info pull-right" onclick="search()">搜索</button>
+                        </div>
+                        <!-- /.box-footer -->
+
                     </div>
 
                     <div class="box">
@@ -94,7 +92,7 @@
                         <div class="box-body">
                             <a href="/user/form" type="button" class="btn  btn-default btn-sm"><i
                                     class="fa fa-plus"></i> 新增</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                            <button  type="button" class="btn  btn-default btn-sm"
+                            <button type="button" class="btn  btn-default btn-sm"
                                     onclick="App.deleteMulti('/user/delete')"><i
                                     class="fa fa-trash-o"></i>
                                 删除
@@ -117,7 +115,7 @@
                             <table id="dataTable" class="table table-hover">
                                 <thead>
                                 <tr>
-                                    <th><input type="checkbox" class="minimal icheck_master" ></th>
+                                    <th><input type="checkbox" class="minimal icheck_master"></th>
                                     <th>ID</th>
                                     <th>用户名</th>
                                     <th>手机号</th>
@@ -149,36 +147,50 @@
 <sys:modal/>
 
 
-
-
 <script>
-
-
-    var _columns = [
-        {
-            "data": function (row, type, val, meta) {
-                return '<input id="' + row.id + '" type="checkbox" class="minimal" />';
-            }
-        },
-        {"data": "id"},
-        {"data": "username"},
-        {"data": "phone"},
-        {"data": "email"},
-        {"data": "updated"},
-        {
-            "data": function (row, type, val, meta) {
-                var detailUrl = "/user/detail?id=" + row.id;
-                var deleteUrl = "/user/delete";
-                return '<button type="button" class="btn btn-sm btn-default" onclick="App.showDetail(\'' + detailUrl + '\');"><i class="fa fa-search"></i> 查看</button>&nbsp;&nbsp;&nbsp;' +
-                    '<a href="/user/form?id=' + row.id + '" type="button" class="btn btn-sm btn-primary"><i class="fa fa-edit"></i> 编辑</a>&nbsp;&nbsp;&nbsp;' +
-                    '<button type="button" class="btn btn-sm btn-danger" onclick="App.deleteSingle(\'' + deleteUrl + '\', \'' + row.id + '\')"><i class="fa fa-trash-o"></i> 删除</button>';
-            }
-        }
-    ];
+    var _dataTable;
 
     $(function () {
-        App.initDataTables("/user/page",_columns);
+
+
+        var _columns = [
+            {
+                "data": function (row, type, val, meta) {
+                    return '<input id="' + row.id + '" type="checkbox" class="minimal" />';
+                }
+            },
+            {"data": "id"},
+            {"data": "username"},
+            {"data": "phone"},
+            {"data": "email"},
+            {"data": "updated"},
+            {
+                "data": function (row, type, val, meta) {
+                    var detailUrl = "/user/detail?id=" + row.id;
+                    var deleteUrl = "/user/delete";
+                    return '<button type="button" class="btn btn-sm btn-default" onclick="App.showDetail(\'' + detailUrl + '\');"><i class="fa fa-search"></i> 查看</button>&nbsp;&nbsp;&nbsp;' +
+                        '<a href="/user/form?id=' + row.id + '" type="button" class="btn btn-sm btn-primary"><i class="fa fa-edit"></i> 编辑</a>&nbsp;&nbsp;&nbsp;' +
+                        '<button type="button" class="btn btn-sm btn-danger" onclick="App.deleteSingle(\'' + deleteUrl + '\', \'' + row.id + '\')"><i class="fa fa-trash-o"></i> 删除</button>';
+                }
+            }
+        ];
+
+        _dataTable = App.initDataTables("/user/page", _columns);
+
     });
+
+    function search() {
+        var username = $('#username').val();
+        var phone = $('#phone').val();
+        var email = $('#email').val();
+        var param = {
+            "username": username,
+            "phone": phone,
+            "email": email
+        };
+        _dataTable.settings()[0].ajax.data = param;
+        _dataTable.ajax.reload();
+    }
 
 
 </script>
