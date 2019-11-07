@@ -2,10 +2,9 @@ package com.ljf.my.shop.web.admin.interecptor;
 
 
 import com.ljf.my.shop.commons.constant.ConstanUtils;
-import com.ljf.my.shop.commons.utils.CookieUtils;
 import com.ljf.my.shop.domain.TbUser;
-import com.ljf.my.shop.domain.User;
-import org.apache.commons.lang3.StringUtils;
+
+
 import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 

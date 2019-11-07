@@ -4,7 +4,6 @@ import com.ljf.my.shop.commons.dto.BaseResult;
 import com.ljf.my.shop.commons.dto.Pageinfo;
 import com.ljf.my.shop.commons.utils.RegexpUtils;
 import com.ljf.my.shop.domain.TbUser;
-import com.ljf.my.shop.domain.User;
 import com.ljf.my.shop.web.admin.dao.TbUserDao;
 import com.ljf.my.shop.web.admin.service.TbUserService;
 import org.apache.commons.lang3.StringUtils;
