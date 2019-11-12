@@ -201,6 +201,47 @@ var App = function () {
             }
         });
     };
+    /**
+     * 初始化zTree
+     * @param url
+     * @param autoParam
+     * @param callback
+     */
+    var handlerInitZTee=function (url,autoParam,callback) {
+        var setting = {
+            view: {
+                selectedMulti: false
+            },
+            async: {
+                enable: true,
+                url: url,
+                autoParam: autoParam
+
+
+            }
+        };
+
+
+        $.fn.zTree.init($("#myTree"), setting);
+
+        $("#btnModalOk").bind("click", function () {
+            var zTree = $.fn.zTree.getZTreeObj("myTree");
+            var nodes = zTree.getSelectedNodes();
+            //未选择
+            if (nodes.length == 0) {
+                alert("请先选择一个节点");
+
+                //已选择
+            }else {
+                callback(nodes);
+
+            }
+
+        });
+
+
+
+    };
 
 
     return {
@@ -232,6 +273,15 @@ var App = function () {
          */
         showDetail: function (url) {
             handlerShowDetail(url);
+        },
+        /**
+         * 初始化zTree
+         * @param url
+         * @param autoParam
+         * @param callback
+         */
+        initZTree:function (url,autoParam,callback) {
+            handlerInitZTee(url,autoParam,callback);
         }
 
     }

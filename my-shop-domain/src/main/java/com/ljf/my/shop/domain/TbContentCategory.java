@@ -1,5 +1,6 @@
 package com.ljf.my.shop.domain;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.ljf.my.shop.commons.persistence.BaseEntity;
 
 
@@ -17,6 +18,7 @@ public class TbContentCategory extends BaseEntity {
     private String name;
     private Integer status;
     private Integer sortOrder;
+    @JsonProperty(value = "isParent")
     private boolean isParent;
 
     public Long getParentId() {

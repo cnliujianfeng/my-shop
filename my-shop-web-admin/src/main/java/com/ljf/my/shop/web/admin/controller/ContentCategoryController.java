@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,6 +38,20 @@ public class ContentCategoryController {
     }
 
     /**
+     * 树形结构
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping(value = "tree/data",method = RequestMethod.POST)
+    public List<TbContentCategory> treeData(Long id){
+
+        if(id==null){
+            id=0L;
+        }
+        return  tbContentCategoryService.selectByPid(id);
+    }
+
+    /**
      * 排序
      *
      * @param sortList   数据源集合
@@ -62,5 +77,6 @@ public class ContentCategoryController {
             }
         }
     }
+
 
 }
