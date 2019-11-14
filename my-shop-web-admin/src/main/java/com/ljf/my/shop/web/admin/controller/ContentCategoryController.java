@@ -1,10 +1,12 @@
 package com.ljf.my.shop.web.admin.controller;
 
 import com.ljf.my.shop.domain.TbContentCategory;
+import com.ljf.my.shop.domain.TbUser;
 import com.ljf.my.shop.web.admin.service.TbContentCategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -26,6 +28,25 @@ public class ContentCategoryController {
 
     @Autowired
     private TbContentCategoryService tbContentCategoryService;
+
+    @ModelAttribute
+    public TbContentCategory getTbUser(Long id) {
+        TbContentCategory tbContentCategory = null;
+        //id不为空则从数据库获取
+        if (id != null) {
+            tbContentCategory = tbContentCategoryService.getById(id);
+        } else {
+            tbContentCategory = new TbContentCategory();
+        }
+
+        return tbContentCategory;
+    }
+
+
+    @RequestMapping(value = "form")
+    public String form(){
+        return "content_category_form";
+    }
 
     @RequestMapping(value = "list", method = RequestMethod.GET)
     public String list(Model model) {
@@ -61,14 +82,14 @@ public class ContentCategoryController {
 
     private void sortList(List<TbContentCategory> sortList, List<TbContentCategory> targetList, long parentId) {
         for (TbContentCategory tbContentCategory : sortList) {
-            if (tbContentCategory.getParentId().equals(parentId)) {
+            if (tbContentCategory.getParent().getId().equals(parentId)) {
                 targetList.add(tbContentCategory);
 
                 //判断有没有子节点，如果又继续追加
 
-                if (tbContentCategory.isParent()) {
+                if (tbContentCategory.getIsParent()) {
                     for (TbContentCategory contentCategory : sortList) {
-                        if (contentCategory.getParentId().equals(tbContentCategory.getId())) {
+                        if (contentCategory.getParent().getId().equals(tbContentCategory.getId())) {
                             sortList(sortList, targetList, tbContentCategory.getId());
                             break;
                         }

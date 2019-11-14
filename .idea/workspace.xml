@@ -7,301 +7,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7d5653e-2c05-41e4-a44b-94b71696b1b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/ContentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/dao/TbContentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/TbContentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/impl/TbContentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbContentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/content_form.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/content_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/js/datetime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/API_cn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/apiCss/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/apiCss/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/apiCss/common_ie6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/apiCss/img/apiMenu.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/apiCss/img/apiMenu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/apiCss/img/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/apiCss/img/chinese.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/apiCss/img/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/apiCss/img/contact-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/apiCss/img/english.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/apiCss/img/header-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/apiCss/img/lightbulb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/apiCss/img/overlay_arrow.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/apiCss/img/overlay_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/apiCss/img/overlay_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/apiCss/img/overlay_close_IE6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/apiCss/img/zTreeStandard.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/apiCss/img/zTreeStandard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/apiCss/zTreeStyleForApi.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/fn.zTree._z.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/fn.zTree.destroy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/fn.zTree.getZTreeObj.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/fn.zTree.init.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.async.autoParam.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.async.contentType.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.async.dataFilter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.async.dataType.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.async.enable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.async.otherParam.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.async.type.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.async.url.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.beforeAsync.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.beforeCheck.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.beforeClick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.beforeCollapse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.beforeDblClick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.beforeDrag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.beforeDragOpen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.beforeDrop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.beforeEditName.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.beforeExpand.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.beforeMouseDown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.beforeMouseUp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.beforeRemove.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.beforeRename.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.beforeRightClick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.onAsyncError.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.onAsyncSuccess.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.onCheck.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.onClick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.onCollapse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.onDblClick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.onDrag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.onDrop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.onExpand.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.onMouseDown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.onMouseUp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.onNodeCreated.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.onRemove.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.onRename.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.callback.onRightClick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.check.autoCheckTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.check.chkDisabledInherit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.check.chkStyle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.check.chkboxType.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.check.enable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.check.nocheckInherit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.check.radioType.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.data.keep.leaf.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.data.keep.parent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.data.key.checked.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.data.key.children.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.data.key.name.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.data.key.title.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.data.key.url.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.data.simpleData.enable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.data.simpleData.idKey.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.data.simpleData.pIdKey.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.data.simpleData.rootPId.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.edit.drag.autoExpandTrigger.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.edit.drag.autoOpenTime.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.edit.drag.borderMax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.edit.drag.borderMin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.edit.drag.inner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.edit.drag.isCopy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.edit.drag.isMove.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.edit.drag.maxShowNodeNum.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.edit.drag.minMoveSize.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.edit.drag.next.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.edit.drag.prev.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.edit.editNameSelectAll.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.edit.enable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.edit.removeTitle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.edit.renameTitle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.edit.showRemoveBtn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.edit.showRenameBtn.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.treeId.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.treeObj.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.view.addDiyDom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.view.addHoverDom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.view.autoCancelSelected.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.view.dblClickExpand.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.view.expandSpeed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.view.fontCss.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.view.nameIsHTML.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.view.removeHoverDom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.view.selectedMulti.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.view.showIcon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.view.showLine.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/setting.view.showTitle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.check_Child_State.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.check_Focus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.checked.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.checkedOld.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.children.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.chkDisabled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.click.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.diy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.editNameFlag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.getCheckStatus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.getNextNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.getParentNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.getPreNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.halfCheck.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.iconClose.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.iconOpen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.iconSkin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.isAjaxing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.isFirstNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.isHidden.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.isHover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.isLastNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.isParent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.level.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.name.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.nocheck.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.open.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.parentTId.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.tId.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.target.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.url.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/treeNode.zAsync.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.addNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.cancelEditName.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.cancelSelectedNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.checkAllNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.checkNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.copyNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.destroy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.editName.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.expandAll.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.expandNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.getChangeCheckedNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.getCheckedNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.getNodeByParam.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.getNodeByTId.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.getNodeIndex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.getNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.getNodesByFilter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.getNodesByParam.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.getNodesByParamFuzzy.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.getSelectedNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.hideNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.hideNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.moveNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.reAsyncChildNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.refresh.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.removeChildNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.removeNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.selectNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.setChkDisabled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.setEditable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.setting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.showNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.showNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.transformToArray.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.transformTozTreeNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/api/cn/zTreeObj.updateNode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/css/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/css/zTreeStyle/img/diy/1_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/css/zTreeStyle/img/diy/1_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/css/zTreeStyle/img/diy/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/css/zTreeStyle/img/diy/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/css/zTreeStyle/img/diy/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/css/zTreeStyle/img/diy/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/css/zTreeStyle/img/diy/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/css/zTreeStyle/img/diy/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/css/zTreeStyle/img/diy/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/css/zTreeStyle/img/diy/9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/css/zTreeStyle/img/line_conn.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/css/zTreeStyle/img/line_conn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/css/zTreeStyle/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/css/zTreeStyle/img/metro.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/css/zTreeStyle/img/metro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/css/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/css/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/css/zTreeStyle/metro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/css/zTreeStyle/zTreeStyle.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/asyncData/getNodes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/asyncData/getNodesForBigData.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/bigdata/common.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/bigdata/diy_async.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/bigdata/page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/core/async.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/core/async_fun.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/core/click.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/core/custom_font.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/core/custom_icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/core/custom_iconSkin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/core/expand.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/core/noicon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/core/noline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/core/otherMouse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/core/searchNodes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/core/simpleData.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/core/standardData.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/core/update_fun.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/core/url.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/excheck/checkbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/excheck/checkbox_chkDisabled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/excheck/checkbox_count.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/excheck/checkbox_fun.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/excheck/checkbox_halfCheck.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/excheck/checkbox_nocheck.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/excheck/radio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/excheck/radio_chkDisabled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/excheck/radio_fun.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/excheck/radio_halfCheck.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/excheck/radio_nocheck.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/exedit/async_edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/exedit/drag.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/exedit/drag_fun.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/exedit/drag_super.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/exedit/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/exedit/edit_fun.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/exedit/edit_super.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/exedit/multiTree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/exhide/checkbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/exhide/common.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/exhide/radio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/super/asyncForAll.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/super/checkbox_radio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/super/diydom.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/super/dragWithOther.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/super/left_menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/super/left_menuForOutLook.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/super/left_menuForOutLook.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/super/left_menuForOutLook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/super/oneclick.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/super/oneroot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/super/rightClickMenu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/super/select_menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/super/select_menu_checkbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/super/select_menu_radio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/demo/cn/super/singlepath.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/js/jquery-1.4.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/js/jquery.ztree.all-3.5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/js/jquery.ztree.all-3.5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/js/jquery.ztree.core-3.5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/js/jquery.ztree.core-3.5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/js/jquery.ztree.excheck-3.5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/js/jquery.ztree.excheck-3.5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/js/jquery.ztree.exedit-3.5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/js/jquery.ztree.exedit-3.5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/js/jquery.ztree.exhide-3.5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/js/jquery.ztree.exhide-3.5.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/log v3.x.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/content_category_form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/my_shop_web_admin_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/my_shop_web_admin_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/my_shop_web_api_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/my_shop_web_api_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/my_shop_web_ui_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/my_shop_web_ui_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-commons/my-shop-commons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-commons/my-shop-commons.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-commons/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-dependencies/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-dependencies/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-domain/my-shop-domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-domain/my-shop-domain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbContent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbContentCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbContentCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/my-shop-web-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/my-shop-web-admin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/ContentCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/ContentCategoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/dao/TbContentCategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/dao/TbContentCategoryDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/TbContentCategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/TbContentCategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/impl/TbContentCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/impl/TbContentCategoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbContentCategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbContentCategoryDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/menu.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/tags/sys/modal.tag" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/tags/sys/modal.tag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/includes/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/includes/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/includes/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/includes/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/content_form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/content_form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-shop-commons-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-shop-commons-1.0.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-shop-domain-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/lib/my-shop-domain-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/tags/sys/modal.tag" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/WEB-INF/tags/sys/modal.tag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/static/assets/app/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-admin/target/my-shop-web-admin-1.0.0-SNAPSHOT/static/assets/app/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-api/my-shop-web-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-api/my-shop-web-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-shop-web-ui/my-shop-web-ui.iml" beforeDir="false" afterPath="$PROJECT_DIR$/my-shop-web-ui/my-shop-web-ui.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/my-shop-dependencies/target/" />
@@ -324,38 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/content_form.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="96" column="45" selection-start-line="96" selection-start-column="45" selection-end-line="96" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="138" column="24" lean-forward="true" selection-start-line="138" selection-start-column="24" selection-end-line="138" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-131">
-              <caret line="204" column="15" selection-start-line="204" selection-start-column="15" selection-end-line="204" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/tags/sys/modal.tag">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="52" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="52" />
+            <state relative-caret-position="215">
+              <caret line="103" column="42" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -363,80 +63,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbContentCategory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-233">
-              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#528#529#0" expanded="true" />
-                <element signature="e#568#569#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#626#627#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#761#762#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-                <element signature="e#879#880#0" expanded="true" />
-                <element signature="e#911#912#0" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
-                <element signature="e#1037#1038#0" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
-                <element signature="e#1113#1114#0" expanded="true" />
-                <element signature="e#1146#1147#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbContent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-              <folding>
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/ContentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="150" column="5" lean-forward="true" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/TbContentCategoryService.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -444,8 +81,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/ContentCategoryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="44" column="63" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
+            <state relative-caret-position="1309">
+              <caret line="91" column="63" selection-start-line="91" selection-start-column="63" selection-end-line="91" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbContent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -489,39 +135,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/js/validate.js" />
-        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/toHide.html" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/tags/modal.tag" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/my-shop-dependencies/pom.xml" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/head.jsp" />
-        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbUserMapper.xml" />
         <option value="$PROJECT_DIR$/my-shop-commons/src/main/src/java/com/ljf/my/shop/commons/persistence/BaseEntity.java" />
         <option value="$PROJECT_DIR$/my-shop-domain/pom.xml" />
-        <option value="$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbUser.java" />
         <option value="$PROJECT_DIR$/my-shop-commons/src/main/src/java/com/ljf/my/shop/commons/dto/Pageinfo.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/TbUserService.java" />
-        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/dao/TbUserDao.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/user_form.jsp" />
-        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/UserController.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/tags/sys/detail.tag" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/user_detail.jsp" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/user_list.jsp" />
         <option value="$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/User.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/interecptor/LoginInterceptor.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/interecptor/PermissionInterceptor.java" />
-        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/impl/TbUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbContextCategory.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/dao/TbContextCategoryDao.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/impl/TbContextCategoryService.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbContextCategoryMapper.xml" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/impl/TbContextCategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/ContextCategoryController.java" />
-        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/content_category_list.jsp" />
-        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/dao/TbContentDao.java" />
-        <option value="$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbContent.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/impl/TbContentServiceImpl.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/TbContentService.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/menu.jsp" />
@@ -530,16 +165,27 @@
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/content_list.jsp" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/tags/sys/modal.tag" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/jquery-ztree/js/jquery-1.4.4.min.js" />
-        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbContentMapper.xml" />
-        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbContentCategoryDao.xml" />
-        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/dao/TbContentCategoryDao.java" />
+        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/js/app.js" />
+        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/ContentController.java" />
+        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/impl/TbUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/dao/TbUserDao.java" />
+        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbUserMapper.xml" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/TbContentCategoryService.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/impl/TbContentCategoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/ContentController.java" />
-        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/ContentCategoryController.java" />
+        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/content_category_list.jsp" />
+        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbContentCategoryDao.xml" />
+        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/dao/TbContentCategoryDao.java" />
+        <option value="$PROJECT_DIR$/my-shop-dependencies/pom.xml" />
+        <option value="$PROJECT_DIR$/my-shop-commons/pom.xml" />
         <option value="$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbContentCategory.java" />
-        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/js/app.js" />
+        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/ContentCategoryController.java" />
+        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/content_category_form.jsp" />
+        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbContentMapper.xml" />
+        <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/dao/TbContentDao.java" />
         <option value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/content_form.jsp" />
+        <option value="$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbContent.java" />
+        <option value="$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbUser.java" />
       </list>
     </option>
   </component>
@@ -567,16 +213,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="my-shop-dependencies" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="my-shop-web-admin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="my-shop-web-admin" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -586,10 +223,9 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="288" />
-    <option name="y" value="5" />
+    <option name="x" value="469" />
     <option name="width" value="1461" />
-    <option name="height" value="1039" />
+    <option name="height" value="1011" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -598,14 +234,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="my-shop-commons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="my-shop-dependencies" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
@@ -750,48 +394,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -812,33 +414,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="tags" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="tags" type="462c0819:PsiDirectoryNode" />
-              <item name="sys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-shop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-shop" type="462c0819:PsiDirectoryNode" />
-              <item name="my-shop-web-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -846,26 +429,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\MyJava\my-shop\my-shop-web-admin\src\main\webapp\WEB-INF\tags\sys" />
-      <recent name="D:\MyJava\my-shop\my-shop-web-admin\src\main\webapp\WEB-INF\views" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ljf.my.shop.web.admin.service.impl" />
+      <recent name="com.ljf.my.shop.web.admin.dao.impl" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ljf.my.shop.web.admin.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyJava\my-shop\my-shop-web-admin\src\main\webapp\static\assets\plugins" />
       <recent name="D:\MyJava\my-shop\my-shop-web-admin\src\main\webapp\WEB-INF\views" />
+      <recent name="D:\MyJava\my-shop\my-shop-web-admin\src\main\webapp\static\assets\plugins" />
       <recent name="D:\MyJava\my-shop\my-shop-web-admin\src\main\webapp\WEB-INF\tags\sys" />
       <recent name="D:\MyJava\my-shop\my-shop-web-admin\src\main\java\com\ljf\my\shop\web\admin\interecptor" />
       <recent name="D:\MyJava\my-shop\my-shop-web-admin\src\main\java\com\ljf\my\shop\web\admin\controller" />
@@ -874,9 +457,9 @@
       <recent name="com.ljf.my.shop.commons.utils" />
       <recent name="com.ljf.my.shop.web.admin.service.impl" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.ljf.my.shop.web.admin.service.impl" />
-      <recent name="com.ljf.my.shop.web.admin.dao.impl" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyJava\my-shop\my-shop-web-admin\src\main\webapp\WEB-INF\tags\sys" />
+      <recent name="D:\MyJava\my-shop\my-shop-web-admin\src\main\webapp\WEB-INF\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1091,7 +674,11 @@
       <workItem from="1572537927611" duration="212000" />
       <workItem from="1572606768661" duration="859000" />
       <workItem from="1573119061133" duration="11727000" />
-      <workItem from="1573528326371" duration="19005000" />
+      <workItem from="1573528326371" duration="19496000" />
+      <workItem from="1573622420012" duration="2011000" />
+      <workItem from="1573626870134" duration="18163000" />
+      <workItem from="1573701088334" duration="3207000" />
+      <workItem from="1573712218392" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="ti">
       <created>1572405015784</created>
@@ -1142,7 +729,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573133174818</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="基础树状列表TreeTable">
+      <created>1573560849052</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1573560849052</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1178,13 +772,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173143000" />
+    <option name="totallyTimeSpent" value="197084000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="288" y="5" width="1461" height="1039" extended-state="0" />
+    <frame x="469" y="0" width="1461" height="1011" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969697" visible="true" weight="0.27980015" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4969697" visible="true" weight="0.23911493" />
       <window_info id="Structure" order="1" sideWeight="0.50092083" side_tool="true" weight="0.2225" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1194,25 +788,25 @@
       <window_info id="Web" order="7" sideWeight="0.5030303" side_tool="true" weight="0.24040511" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32752612" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32752612" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49909145" visible="true" weight="0.33812153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32707182" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49909145" weight="0.36830103" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" sideWeight="0.499375" weight="0.32786885" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32912987" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.28066298" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.27822122" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32912987" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50090855" side_tool="true" weight="0.39925835" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32928178" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" weight="0.32954547" />
       <window_info anchor="bottom" id="TypeScript" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.2468017" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.24625267" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -1258,6 +852,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
@@ -1272,41 +876,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.9.RELEASE/spring-webmvc-4.3.9.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7378">
-          <caret line="530" selection-start-line="530" selection-end-line="530" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/head.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/iCheck/icheck.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="33" column="2" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="18" selection-start-line="43" selection-start-column="12" selection-end-line="46" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-domain/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/test/com/ljf/my/shop/web/admin/service/test/TbUserServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1393,50 +962,6 @@
     <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/plugins/treeTable/themes/vsStyle/treeTable.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/content_category_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1043">
-          <caret line="93" column="45" lean-forward="true" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="122" column="9" lean-forward="true" selection-end-line="122" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/dao/TbUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="75" column="29" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="75" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/dao/TbContentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/TbUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-430">
-          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-shop-commons/src/main/src/java/com/ljf/my/shop/commons/dto/Pageinfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="778">
@@ -1467,16 +992,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/impl/TbUserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="163" column="78" selection-start-line="163" selection-start-column="33" selection-end-line="163" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/impl/TbContentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -1499,13 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="845">
           <caret line="171" column="142" selection-end-line="199" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1533,13 +1041,6 @@
             <element signature="e#252#258#0" expanded="true" />
             <element signature="e#258#264#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/user_form.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -1571,130 +1072,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbContentMapper.xml">
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="753">
-          <caret line="130" selection-start-line="130" selection-end-line="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbContentCategoryDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/TbContentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/dao/TbContentCategoryDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="25" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/impl/TbContentCategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbContent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          <folding>
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/ContentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="150" column="5" lean-forward="true" selection-start-line="150" selection-start-column="5" selection-end-line="150" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbContentCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-233">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#626#627#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#761#762#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1146#1147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/TbContentCategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/ContentCategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="44" column="63" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="3468">
+          <caret line="204" column="15" selection-start-line="204" selection-start-column="15" selection-end-line="204" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1705,27 +1086,213 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/static/assets/app/js/app.js">
+    <entry file="file://$PROJECT_DIR$/my-shop-domain/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-131">
-          <caret line="204" column="15" selection-start-line="204" selection-start-column="15" selection-end-line="204" selection-end-column="15" />
+        <state relative-caret-position="391">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/content_form.jsp">
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/TbUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="96" column="45" selection-start-line="96" selection-start-column="45" selection-end-line="96" selection-end-column="45" />
+        <state relative-caret-position="188">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/impl/TbUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/TbContentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="50" column="13" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/includes/menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/dao/TbUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="75" column="29" selection-start-line="25" selection-start-column="4" selection-end-line="75" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/dao/TbContentCategoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-commons/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/user_form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-739">
+          <caret line="39" column="46" lean-forward="true" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/content_category_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="62" column="47" lean-forward="true" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="138" column="24" lean-forward="true" selection-start-line="138" selection-start-column="24" selection-end-line="138" selection-end-column="24" />
+        <state relative-caret-position="289">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbContentCategoryDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/TbContentCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/service/impl/TbContentCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+          <folding>
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-dependencies/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2907">
+          <caret line="171" selection-start-line="164" selection-start-column="11" selection-end-line="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/content_category_form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="89" column="52" lean-forward="true" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/resources/mapper/TbContentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="131" column="9" selection-start-line="131" selection-start-column="9" selection-end-line="131" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/dao/TbContentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/ContentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/webapp/WEB-INF/views/content_form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="103" column="42" selection-start-line="103" selection-start-column="42" selection-end-line="103" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-web-admin/src/main/java/com/ljf/my/shop/web/admin/controller/ContentCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="91" column="63" selection-start-line="91" selection-start-column="63" selection-end-line="91" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbContentCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-shop-domain/src/main/java/com/ljf/my/shop/domain/TbUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>

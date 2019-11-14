@@ -22,4 +22,6 @@ public interface TbContentCategoryService  {
      * @return
      */
     List<TbContentCategory> selectByPid(Long pid);
+
+    TbContentCategory getById(Long id);
 }

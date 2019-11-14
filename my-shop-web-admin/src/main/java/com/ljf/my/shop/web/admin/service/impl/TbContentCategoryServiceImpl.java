@@ -32,4 +32,9 @@ public class TbContentCategoryServiceImpl implements TbContentCategoryService {
     public List<TbContentCategory> selectByPid(Long pid) {
         return tbContentCategoryDao.selectByPid(pid);
     }
+
+    @Override
+    public TbContentCategory getById(Long id) {
+        return tbContentCategoryDao.getById(id);
+    }
 }
