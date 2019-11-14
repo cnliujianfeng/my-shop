@@ -23,7 +23,12 @@
             <scope>provided</scope>
         </dependency>
         <!-- Servlet End -->
-
+        <!--Spring Begin-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+        <!--Spring End-->
         <!-- Log Begin -->
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -69,11 +74,19 @@
             <version>${Lombok.version}</version>
         </dependency>
         <!-- Lombok Start-->
+        <!--Hibernate-Validator Start-->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-validator</artifactId>
+        </dependency>
+        <!--Hibernate-Validator End-->
 
 
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
         </dependency>
+
+
     </dependencies>
 </project>
