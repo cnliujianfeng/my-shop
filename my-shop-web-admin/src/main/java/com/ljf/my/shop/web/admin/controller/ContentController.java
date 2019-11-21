@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 
 /**
  * 内容管理
@@ -135,6 +136,11 @@ public class ContentController {
         int length = strLength == null ? 10 : Integer.parseInt(strLength);
 
         Pageinfo<TbContent> pageinfo = tbContentService.page(start, length, draw,tbContent);
+        //处理上传的文件名
+       /* List<TbContent> tbContents = pageinfo.getData();
+        for (TbContent content : tbContents) {
+            content.setPic("/static/upload/"+content.getPic());
+        }*/
 
         return pageinfo;
     }

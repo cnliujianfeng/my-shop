@@ -96,7 +96,12 @@
             <artifactId>spring-jdbc</artifactId>
         </dependency>
         <!--MyBatis End-->
-
+        <!--commons-fileupload Begin-->
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+        </dependency>
+        <!--commons-fileupload End-->
 
     </dependencies>
 

@@ -60,7 +60,7 @@
 <!-- iCheck 1.0.1 -->
 <script src="/static/assets/plugins/iCheck/icheck.min.js"></script>
 <!-- app-->
-<script src="/static/assets/app/js/validate.js"></script>
+<%--<script src="/static/assets/app/js/validate.js"></script>--%>
 <script src="/static/assets/app/js/app.js"></script>
 <script src="/static/assets/app/js/datetime.js"></script>
 

@@ -7,6 +7,27 @@ var App = function () {
     //用于存放ID的数组
     var _idArray;
 
+    //默认的DropZone参数
+    var defalutDropzoneOpts = {
+        url: "",
+        dictDefaultMessage: '拖动文件至此或者点击上传', // 设置默认的提示语句
+        paramName: "dropFile", // 传到后台的参数名称
+        maxFiles: 1,// 一次性上传的文件数量上限
+        maxFilesize: 2, // 文件大小，单位：MB
+        acceptedFiles: ".jpg,.gif,.png,.jpeg", // 上传的类型
+        addRemoveLinks: true,
+        parallelUploads: 1,// 一次上传的文件数量
+        //previewsContainer:"#preview", // 上传图片的预览窗口
+        dictDefaultMessage: '拖动文件至此或者点击上传',
+        dictMaxFilesExceeded: "您最多只能上传" + this.maxFiles + "个文件！",
+        dictResponseError: '文件上传失败!',
+        dictInvalidFileType: "文件类型只能是*.jpg,*.gif,*.png,*.jpeg。",
+        dictFallbackMessage: "浏览器不受支持",
+        dictFileTooBig: "文件过大上传文件最大支持.",
+        dictRemoveLinks: "删除",
+        dictCancelUpload: "取消",
+    };
+
     /**
      * 私有方法，初始化Icheck
      */
@@ -70,7 +91,7 @@ var App = function () {
                 _idArray.push(_id);
             }
         });
-        //判断用户是否选择数据线
+        //判断用户是否选择数据项
         if (_idArray.length === 0) {
 
             $('#modal-message').html("您还没有选择任何数据，请至少选择一项");
@@ -80,7 +101,7 @@ var App = function () {
         //点击删除时弹出模态框
         $('#modal-default').modal('show');
 
-        //如果选择了数据线则调用删除方法
+        //如果选择了数据项则调用删除方法
         $("#btnModalOk").bind("click", function () {
             del();
         });
@@ -186,6 +207,29 @@ var App = function () {
     };
 
     /**
+     * 初始化Dropzone
+     * @param opts
+     */
+    var handlerInitDropzone = function (opts) {
+        Dropzone.autoDiscover = false;
+        //继承
+        $.extend(defalutDropzoneOpts, opts);
+
+
+        new Dropzone(defalutDropzoneOpts.id, defalutDropzoneOpts);
+    };
+
+
+    /* {
+
+         init: function () {
+             this.on("success", function (file, data) {
+                 // 上传成功触发的事件
+                 defalutDropzoneOpts.success(file,data);
+             });
+         }*/
+
+    /**
      * 查看详情
      * @param url
      */
@@ -207,7 +251,7 @@ var App = function () {
      * @param autoParam
      * @param callback
      */
-    var handlerInitZTee=function (url,autoParam,callback) {
+    var handlerInitZTee = function (url, autoParam, callback) {
         var setting = {
             view: {
                 selectedMulti: false
@@ -232,7 +276,7 @@ var App = function () {
                 alert("请先选择一个节点");
 
                 //已选择
-            }else {
+            } else {
                 callback(nodes);
 
             }
@@ -240,16 +284,19 @@ var App = function () {
         });
 
 
-
     };
 
 
     return {
-
+        /**
+         * 初始化
+         */
         init: function () {
             handlerInitCheckbox();
             handlerCheckboxAll();
             handlerCheckBoxInit();
+            //关门比DropZone的自动发现功能
+
         },
         /**
          * 批量删除
@@ -280,9 +327,16 @@ var App = function () {
          * @param autoParam
          * @param callback
          */
-        initZTree:function (url,autoParam,callback) {
-            handlerInitZTee(url,autoParam,callback);
-        }
+        initZTree: function (url, autoParam, callback) {
+            handlerInitZTee(url, autoParam, callback);
+        },
+        /**
+         * 初始化DropZone
+         * @param opts
+         */
+        initDropzone: function (opts) {
+            handlerInitDropzone(opts);
+        },
 
     }
 }();
